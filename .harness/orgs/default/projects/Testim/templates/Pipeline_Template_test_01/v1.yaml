@@ -1,0 +1,31 @@
+template:
+  name: Workspace_Template_test_03
+  identifier: Workspace_Template_test_03
+  projectIdentifier: Testim
+  orgIdentifier: default
+  versionLabel: v1
+  type: Workspace
+  spec:
+    provider:
+      type: others
+      title: thirdPartyGitProvider
+      info: thirdPartyGitProviderInfo
+      icon: service-github
+      size: 20
+      disabled: false
+    tags: []
+    cost_estimation:
+      enabled: false
+      locked: false
+    provisioner:
+      type: terraform
+      version: 1.5.6
+      locked: true
+    repository:
+      isHarnessCode: false
+      connector: TarunGitConnector
+      branch: main
+      gitFetchType: branch
+      locked: true
+    variables: []
+    terraform_variables: []
