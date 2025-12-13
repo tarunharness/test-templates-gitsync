@@ -19,7 +19,7 @@ template:
       locked: false
     provisioner:
       type: terraform
-      version: 1.5.7
+      version: 1.5.6
       locked: true
     repository:
       isHarnessCode: false
