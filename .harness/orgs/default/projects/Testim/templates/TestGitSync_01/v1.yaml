@@ -18,8 +18,8 @@ template:
       enabled: false
       locked: false
     provisioner:
-      type: terraform
-      version: 1.5.7
+      type: opentofu
+      version: 1.11.0
       locked: true
     terragrunt_provider: false
     repository:
