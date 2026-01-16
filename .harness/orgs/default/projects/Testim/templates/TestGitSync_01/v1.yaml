@@ -19,7 +19,7 @@ template:
       locked: false
     provisioner:
       type: opentofu
-      version: 1.10.5
+      version: 1.10.3
       locked: true
     terragrunt_provider: false
     repository:
