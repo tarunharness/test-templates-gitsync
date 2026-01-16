@@ -1,0 +1,32 @@
+template:
+  name: TestGitSync_01
+  identifier: TestGitSync_01
+  projectIdentifier: Testim
+  orgIdentifier: default
+  versionLabel: v1
+  type: Workspace
+  spec:
+    provider:
+      type: others
+      title: thirdPartyGitProvider
+      info: thirdPartyGitProviderInfo
+      icon: service-github
+      size: 20
+      disabled: false
+    tags: []
+    cost_estimation:
+      enabled: false
+      locked: false
+    provisioner:
+      type: terraform
+      version: 1.5.6
+      locked: true
+    terragrunt_provider: false
+    repository:
+      isHarnessCode: false
+      connector: githubhttprepo
+      branch: main
+      gitFetchType: branch
+      locked: true
+    variables: []
+    terraform_variables: []
